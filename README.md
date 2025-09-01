@@ -11,7 +11,7 @@
 ##  Como jogar  
 
 - ⬅️ ➡️ → mover jogador  
-- ⬆️ / Espaço → pular  
+- ⬆️ / Espaço → pular
 - 🅩 → atirar  
 - 🅜 → ligar/desligar som  
 - ⬆️ ⬇️ + Enter → navegar no menu  
