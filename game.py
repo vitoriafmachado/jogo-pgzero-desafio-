@@ -210,6 +210,12 @@ def update(dt):
         if on_ground and random.random() < 0.003:
             enemy["vy"] = 50
 
+        # colisão inimigo x player
+        if player.colliderect(a) and player.hurt_cd == 0:
+            player.life -= 1
+            player.hurt_cd = 1.0  # invencibilidade
+            put_player_on_start()
+
     # ---------- bullets ----------
     for bullet in list(bullets):
         ba = bullet["actor"]
@@ -223,7 +229,7 @@ def update(dt):
         if ba.right < 0 or ba.left > WIDTH:
             bullets.remove(bullet)
 
-    # ---------- colisões ----------
+    # ---------- colisões de tiro ----------
     for bullet in list(bullets):
         for enemy in list(enemies):
             if bullet["actor"].colliderect(enemy["actor"]):

@@ -5,6 +5,9 @@
 <div align="center">
   <img src="docs/demo-gameplay.gif" width="480" />
   <p><i>Um jogo de plataforma em Python — com física arcade e inimigos inteligentes</i></p>
+
+![Gameplay](assets/gamegif.gif)
+
 </div>
 
 
