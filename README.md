@@ -36,9 +36,13 @@
 
 ✔️ Menu inicial interativo  
 ✔️ HUD com vidas e pontuação  
-✔️ Sprites espelhados automaticamente (usando `pygame.transform.flip`)  
-✔️ Inimigos que andam, pulam e descem plataformas  
-✔️ Chefão final em escala **2x maior**  
+✔️ Sprites <br>
+✔️ Inimigos que andam, pulam e descem plataformas <br>
+✔️  sons ,<br>
+✔️ score de 10 inimigos mortos = victory,<br>
+✔️ game over se cair da plataforma,<br>
+✔️ botão no menu (Começar, Som ON/OFF, Exit),<br>
+✔️teclas (Z atira, SPACE pula, X sai, M liga/desliga som).<br>
 
 
 ## 🔊 Sons
